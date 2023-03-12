@@ -1,3 +1,4 @@
 #!/usr/bin/env node
-const { main } = require("../lib/index.js");
-main();
+import main from '../lib/index.js';
+// main();
+console.log(main);
