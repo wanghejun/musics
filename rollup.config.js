@@ -1,9 +1,9 @@
 import terser from '@rollup/plugin-terser';
 export default {
-  input:'./lib/index.js',//入口文件
+  input:'./lib/index.js',
   output:{
-    file:'./dist/index.js',//打包后的存放文件
-    format:'es',//输出格式 amd es6 iife umd cjs
+    file:'./dist/index.js',
+    format:'es',
   },
   plugins: [terser()]
 }
